@@ -3,6 +3,6 @@ from rango import views
 
 app_name = 'rango'
 
-urlspatterns = [
+urlpatterns = [
     path('', views.index, name='index'),
 	]
